@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertOpenXml", "ConvertOpenXml\ConvertOpenXml.csproj", "{40710B15-B0CB-4377-8D9B-73FAEF1F8856}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{704485DA-9ACF-4CC6-A2F0-6FAC3D6E4878}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40710B15-B0CB-4377-8D9B-73FAEF1F8856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40710B15-B0CB-4377-8D9B-73FAEF1F8856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40710B15-B0CB-4377-8D9B-73FAEF1F8856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40710B15-B0CB-4377-8D9B-73FAEF1F8856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{40710b15-b0cb-4377-8d9b-73faef1f8856}*SharedItemsImports = 5
+		SharedProject\SharedProject.projitems*{704485da-9acf-4cc6-a2f0-6fac3d6e4878}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
